@@ -76,7 +76,7 @@ Feature: Workspace
       And after 60 seconds the quoted prices will disappear
       And the Initiate RFQ button will reappear with streaming prices in the background
 
-  Rule: Error Message
+  Rule: Warning notification
     # 1.7
     Scenario Outline: Value is too large
       Given a single <currency pair> tile
@@ -132,7 +132,7 @@ Feature: Workspace
         |    AUD/USD    |
         |    NZD/USD    |
 
-  Rule: Workspace views
+  Rule: Adjusting Workspace views
     # 1.10
     Scenario: Toggle between prices and graph views
       Given a Tile view button is in <state>
