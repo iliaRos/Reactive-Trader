@@ -1,7 +1,8 @@
-Feature: Header
+Feature: Theme control
 
   Background:
-    Given app URL is https://web.uat.reactivetrader.com/
+    Given app URL is https://reactivetrader.com/
+    And release is 3.0.1
     And Chrome Version is 96.0.4664.45
     And Windows 10 Home
 
@@ -36,6 +37,3 @@ Feature: Header
       | init  | alter |
       | light | dark  |
       | dark  | light |
-
-    Scenario: refreshing page
-    Scenario: duplicate window
