@@ -1,1 +1,1 @@
-# Test cases for Reactive Trader by Adaprive
+# Test cases for Real-time FX trading showcase by Adaptive

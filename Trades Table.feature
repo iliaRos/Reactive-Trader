@@ -1,6 +1,11 @@
 Feature: Blotter section
   This section shows a table of all the executed trades.
   It allows filter records and export them in CSV.
+  Background:
+    Given app URL is https://reactivetrader.com/
+    And release is 3.0.1
+    And Chrome Version is 96.0.4664.45
+    And Windows 10 Home
   # 2.2
   Rule: Blotter table displays executed trade
     Scenario: Update Trades table
